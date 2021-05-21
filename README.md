@@ -1,10 +1,28 @@
-# Money
+[![NuGet](https://img.shields.io/nuget/dt/CodeParadise.Money.svg)](https://www.nuget.org/packages/CodeParadise.Money) 
+[![NuGet](https://img.shields.io/nuget/vpre/CodeParadise.Money.svg)](https://www.nuget.org/packages/CodeParadise.Money)
+
+# CodeParadise.Money
 
 This is a C# implementation of the Money pattern, as described in
-[\[Fowler PoEAA\]](https://martinfowler.com/books/eaa.html):
-
+[\[Martin Fowler PoEAA\]](https://martinfowler.com/books/eaa.html):
 
 This implementation is baesd on the content of PoEAA book. Some unit testings improve this module. The following is the features:
+
+## Getting Started
+
+### Installation
+
+Install [CodeParadise.Money with NuGet](https://www.nuget.org/packages/CodeParadise.Money):
+
+    Install-Package CodeParadise.Money
+    
+Or via the .NET Core command line interface:
+
+    dotnet add package CodeParadise.Money
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
 
 * [Constructors](#constructors)
 * [Getting an amount](#getting-an-amount)
@@ -16,7 +34,7 @@ This implementation is baesd on the content of PoEAA book. Some unit testings im
   * [Allocation to N Targets](#allocation-to-n-targets)
 * [Currency](#currency)
 
-## Constructors
+### Constructors
 
 ```csharp
 // Create TWD money with double amount
@@ -30,7 +48,7 @@ Money usd = Money.Dollars(100.25);
 
 ```
 
-## Getting an amount
+### Getting an amount
 
 ```csharp
 Money usd = new Money(26.55, Currency.USD);
@@ -38,7 +56,7 @@ decimal amount = usd.Amount;
 Console.WriteLine(amount); // 26.55
 ```
 
-## Getting a currency
+### Getting a currency
 
 ```csharp
 Money usd = new Money(26.55, Currency.USD);
@@ -46,7 +64,7 @@ Currency currency = usd.Currency;
 Console.WriteLine(currency.ToString()); // USD
 ```
 
-## Arithmetic Operations
+### Arithmetic Operations
 
 There are 4 arithmetic operators:
 
@@ -111,7 +129,7 @@ Money result2 = usd2.Divide(80.0);
 Console.WriteLine(result2.Amount); // 2.5
 ```
 
-## Comparison
+### Comparison
 
 Equality for operator `==` and function `Equals` is `true` when two money objects have the same currency and the same amount. 
 
@@ -159,9 +177,9 @@ bool result4 = usd1 >= usd2; // false;
 
 ```
 
-## Allocation
+### Allocation
 
-### Allocation According to Ratios
+#### Allocation According to Ratios
 
 
 ```csharp
@@ -172,7 +190,7 @@ Assert.AreEqual(Money.Dollars(0.02), allocations[0]); // true
 Assert.AreEqual(Money.Dollars(0.03), allocations[1]); // true
 ```
 
-### Allocation to N Targets
+#### Allocation to N Targets
 
 This method allocates a sum of money into the same amount(almost) amongst N of target.
 
@@ -185,7 +203,7 @@ Assert.AreEqual(Money.Dollars(0.84), allocations[1]);
 Assert.AreEqual(Money.Dollars(0.83), allocations[2]);
 ```
 
-## Currency
+### Currency
 
 `Currency` is a `strcut` type. There are 91 kinds of country currency built in this type according to [MSDN - RegionInfo.ISOCurrencySymbol Property](https://docs.microsoft.com/en-us/dotnet/api/system.globalization.regioninfo.isocurrencysymbol?view=net-5.0)
 `GetDefaultFractionDigits` function returns the number of digits of the specific currency. The number of digits is defined in [Wiki-ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)

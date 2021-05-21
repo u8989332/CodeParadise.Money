@@ -1,8 +1,7 @@
-using System;
 using System.Diagnostics.CodeAnalysis;
 using NUnit.Framework;
 
-namespace Money.Tests
+namespace CodeParadise.Core.Tests
 {
     public class CurrencyTests
     {

@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Money
+namespace CodeParadise.Core
 {
     /// <summary>
     /// References
@@ -284,280 +284,280 @@ namespace Money
         private const string ZWL_NAME = "ZWL";
 
         /// Currency instance: UAE Dirham
-        public static readonly Currency AED = new(AED_NAME);
+        public static readonly Currency AED = new Currency(AED_NAME);
 
         /// Currency instance: Albanian Lek
-        public static readonly Currency ALL = new(ALL_NAME);
+        public static readonly Currency ALL = new Currency(ALL_NAME);
 
         /// Currency instance: Armenian Dram
-        public static readonly Currency AMD = new(AMD_NAME);
+        public static readonly Currency AMD = new Currency(AMD_NAME);
 
         /// Currency instance: Argentine Peso
-        public static readonly Currency ARS = new(ARS_NAME);
+        public static readonly Currency ARS = new Currency(ARS_NAME);
 
         /// Currency instance: Australian Dollar
-        public static readonly Currency AUD = new(AUD_NAME);
+        public static readonly Currency AUD = new Currency(AUD_NAME);
 
         /// Currency instance: Azerbaijanian Manat
-        public static readonly Currency AZN = new(AZN_NAME);
+        public static readonly Currency AZN = new Currency(AZN_NAME);
 
         /// Currency instance: Bulgarian Lev
-        public static readonly Currency BGN = new(BGN_NAME);
+        public static readonly Currency BGN = new Currency(BGN_NAME);
 
         /// Currency instance: Bahraini Dinar
-        public static readonly Currency BHD = new(BHD_NAME);
+        public static readonly Currency BHD = new Currency(BHD_NAME);
 
         /// Currency instance: Brunei Dollar
-        public static readonly Currency BND = new(BND_NAME);
+        public static readonly Currency BND = new Currency(BND_NAME);
 
         /// Currency instance: Boliviano
-        public static readonly Currency BOB = new(BOB_NAME);
+        public static readonly Currency BOB = new Currency(BOB_NAME);
 
         /// Currency instance: Real
-        public static readonly Currency BRL = new(BRL_NAME);
+        public static readonly Currency BRL = new Currency(BRL_NAME);
 
         /// Currency instance: Belarussian Ruble
-        public static readonly Currency BYR = new(BYR_NAME);
+        public static readonly Currency BYR = new Currency(BYR_NAME);
 
         /// Currency instance: Belize Dollar
-        public static readonly Currency BZD = new(BZD_NAME);
+        public static readonly Currency BZD = new Currency(BZD_NAME);
 
         /// Currency instance: Canadian Dollar
-        public static readonly Currency CAD = new(CAD_NAME);
+        public static readonly Currency CAD = new Currency(CAD_NAME);
 
         /// Currency instance: Swiss Franc
-        public static readonly Currency CHF = new(CHF_NAME);
+        public static readonly Currency CHF = new Currency(CHF_NAME);
 
         /// Currency instance: Chilean Peso
-        public static readonly Currency CLP = new(CLP_NAME);
+        public static readonly Currency CLP = new Currency(CLP_NAME);
 
         /// Currency instance: PRC Renminbi
-        public static readonly Currency CNY = new(CNY_NAME);
+        public static readonly Currency CNY = new Currency(CNY_NAME);
 
         /// Currency instance: Colombian Peso
-        public static readonly Currency COP = new(COP_NAME);
+        public static readonly Currency COP = new Currency(COP_NAME);
 
         /// Currency instance: Costa Rican Colon
-        public static readonly Currency CRC = new(CRC_NAME);
+        public static readonly Currency CRC = new Currency(CRC_NAME);
 
         /// Currency instance: Czech Koruna
-        public static readonly Currency CZK = new(CZK_NAME);
+        public static readonly Currency CZK = new Currency(CZK_NAME);
 
         /// Currency instance: Danish Krone
-        public static readonly Currency DKK = new(DKK_NAME);
+        public static readonly Currency DKK = new Currency(DKK_NAME);
 
         /// Currency instance: Dominican Peso
-        public static readonly Currency DOP = new(DOP_NAME);
+        public static readonly Currency DOP = new Currency(DOP_NAME);
 
         /// Currency instance: Algerian Dinar
-        public static readonly Currency DZD = new(DZD_NAME);
+        public static readonly Currency DZD = new Currency(DZD_NAME);
 
         /// Currency instance: Estonian Kroon
-        public static readonly Currency EEK = new(EEK_NAME);
+        public static readonly Currency EEK = new Currency(EEK_NAME);
 
         /// Currency instance: Egyptian Pound
-        public static readonly Currency EGP = new(EGP_NAME);
+        public static readonly Currency EGP = new Currency(EGP_NAME);
 
         /// Currency instance: Ethiopian Birr
-        public static readonly Currency ETB = new(ETB_NAME);
+        public static readonly Currency ETB = new Currency(ETB_NAME);
 
         /// Currency instance: Euro
-        public static readonly Currency EUR = new(EUR_NAME);
+        public static readonly Currency EUR = new Currency(EUR_NAME);
 
         /// Currency instance: UK Pound Sterling
-        public static readonly Currency GBP = new(GBP_NAME);
+        public static readonly Currency GBP = new Currency(GBP_NAME);
 
         /// Currency instance: Lari
-        public static readonly Currency GEL = new(GEL_NAME);
+        public static readonly Currency GEL = new Currency(GEL_NAME);
 
         /// Currency instance: Guatemalan Quetzal
-        public static readonly Currency GTQ = new(GTQ_NAME);
+        public static readonly Currency GTQ = new Currency(GTQ_NAME);
 
         /// Currency instance: Hong Kong Dollar
-        public static readonly Currency HKD = new(HKD_NAME);
+        public static readonly Currency HKD = new Currency(HKD_NAME);
 
         /// Currency instance: Honduran Lempira
-        public static readonly Currency HNL = new(HNL_NAME);
+        public static readonly Currency HNL = new Currency(HNL_NAME);
 
         /// Currency instance: Croatian Kuna
-        public static readonly Currency HRK = new(HRK_NAME);
+        public static readonly Currency HRK = new Currency(HRK_NAME);
 
         /// Currency instance: Hungarian Forint
-        public static readonly Currency HUF = new(HUF_NAME);
+        public static readonly Currency HUF = new Currency(HUF_NAME);
 
         /// Currency instance: Indonesian Rupiah
-        public static readonly Currency IDR = new(IDR_NAME);
+        public static readonly Currency IDR = new Currency(IDR_NAME);
 
         /// Currency instance: Israeli New Shekel
-        public static readonly Currency ILS = new(ILS_NAME);
+        public static readonly Currency ILS = new Currency(ILS_NAME);
 
         /// Currency instance: Indian Rupee
-        public static readonly Currency INR = new(INR_NAME);
+        public static readonly Currency INR = new Currency(INR_NAME);
 
         /// Currency instance: Iraqi Dinar
-        public static readonly Currency IQD = new(IQD_NAME);
+        public static readonly Currency IQD = new Currency(IQD_NAME);
 
         /// Currency instance: Iranian Rial
-        public static readonly Currency IRR = new(IRR_NAME);
+        public static readonly Currency IRR = new Currency(IRR_NAME);
 
         /// Currency instance: Icelandic Krona
-        public static readonly Currency ISK = new(ISK_NAME);
+        public static readonly Currency ISK = new Currency(ISK_NAME);
 
         /// Currency instance: Jamaican Dollar
-        public static readonly Currency JMD = new(JMD_NAME);
+        public static readonly Currency JMD = new Currency(JMD_NAME);
 
         /// Currency instance: Jordanian Dinar
-        public static readonly Currency JOD = new(JOD_NAME);
+        public static readonly Currency JOD = new Currency(JOD_NAME);
 
         /// Currency instance: Japanese Yen
-        public static readonly Currency JPY = new(JPY_NAME);
+        public static readonly Currency JPY = new Currency(JPY_NAME);
 
         /// Currency instance: Kenyan Shilling
-        public static readonly Currency KES = new(KES_NAME);
+        public static readonly Currency KES = new Currency(KES_NAME);
 
         /// Currency instance: som
-        public static readonly Currency KGS = new(KGS_NAME);
+        public static readonly Currency KGS = new Currency(KGS_NAME);
 
         /// Currency instance: Korean Won
-        public static readonly Currency KRW = new(KRW_NAME);
+        public static readonly Currency KRW = new Currency(KRW_NAME);
 
         /// Currency instance: Kuwaiti Dinar
-        public static readonly Currency KWD = new(KWD_NAME);
+        public static readonly Currency KWD = new Currency(KWD_NAME);
 
         /// Currency instance: Tenge
-        public static readonly Currency KZT = new(KZT_NAME);
+        public static readonly Currency KZT = new Currency(KZT_NAME);
 
         /// Currency instance: Lebanese Pound
-        public static readonly Currency LBP = new(LBP_NAME);
+        public static readonly Currency LBP = new Currency(LBP_NAME);
 
         /// Currency instance: Lithuanian Litas
-        public static readonly Currency LTL = new(LTL_NAME);
+        public static readonly Currency LTL = new Currency(LTL_NAME);
 
         /// Currency instance: Latvian Lats
-        public static readonly Currency LVL = new(LVL_NAME);
+        public static readonly Currency LVL = new Currency(LVL_NAME);
 
         /// Currency instance: Libyan Dinar
-        public static readonly Currency LYD = new(LYD_NAME);
+        public static readonly Currency LYD = new Currency(LYD_NAME);
 
         /// Currency instance: Moroccan Dirham
-        public static readonly Currency MAD = new(MAD_NAME);
+        public static readonly Currency MAD = new Currency(MAD_NAME);
 
         /// Currency instance: Macedonian Denar
-        public static readonly Currency MKD = new(MKD_NAME);
+        public static readonly Currency MKD = new Currency(MKD_NAME);
 
         /// Currency instance: Tugrik
-        public static readonly Currency MNT = new(MNT_NAME);
+        public static readonly Currency MNT = new Currency(MNT_NAME);
 
         /// Currency instance: Macao Pataca
-        public static readonly Currency MOP = new(MOP_NAME);
+        public static readonly Currency MOP = new Currency(MOP_NAME);
 
         /// Currency instance: Rufiyaa
-        public static readonly Currency MVR = new(MVR_NAME);
+        public static readonly Currency MVR = new Currency(MVR_NAME);
 
         /// Currency instance: Mexican Peso
-        public static readonly Currency MXN = new(MXN_NAME);
+        public static readonly Currency MXN = new Currency(MXN_NAME);
 
         /// Currency instance: Malaysian Ringgit
-        public static readonly Currency MYR = new(MYR_NAME);
+        public static readonly Currency MYR = new Currency(MYR_NAME);
 
         /// Currency instance: Nicaraguan Cordoba Oro
-        public static readonly Currency NIO = new(NIO_NAME);
+        public static readonly Currency NIO = new Currency(NIO_NAME);
 
         /// Currency instance: Norwegian Krone
-        public static readonly Currency NOK = new(NOK_NAME);
+        public static readonly Currency NOK = new Currency(NOK_NAME);
 
         /// Currency instance: New Zealand Dollar
-        public static readonly Currency NZD = new(NZD_NAME);
+        public static readonly Currency NZD = new Currency(NZD_NAME);
 
         /// Currency instance: Omani Rial
-        public static readonly Currency OMR = new(OMR_NAME);
+        public static readonly Currency OMR = new Currency(OMR_NAME);
 
         /// Currency instance: Panamanian Balboa
-        public static readonly Currency PAB = new(PAB_NAME);
+        public static readonly Currency PAB = new Currency(PAB_NAME);
 
         /// Currency instance: Peruvian Nuevo Sol
-        public static readonly Currency PEN = new(PEN_NAME);
+        public static readonly Currency PEN = new Currency(PEN_NAME);
 
         /// Currency instance: Philippine Peso
-        public static readonly Currency PHP = new(PHP_NAME);
+        public static readonly Currency PHP = new Currency(PHP_NAME);
 
         /// Currency instance: Pakistan Rupee
-        public static readonly Currency PKR = new(PKR_NAME);
+        public static readonly Currency PKR = new Currency(PKR_NAME);
 
         /// Currency instance: Polish Zloty
-        public static readonly Currency PLN = new(PLN_NAME);
+        public static readonly Currency PLN = new Currency(PLN_NAME);
 
         /// Currency instance: Paraguay Guarani
-        public static readonly Currency PYG = new(PYG_NAME);
+        public static readonly Currency PYG = new Currency(PYG_NAME);
 
         /// Currency instance: Qatari Rial
-        public static readonly Currency QAR = new(QAR_NAME);
+        public static readonly Currency QAR = new Currency(QAR_NAME);
 
         /// Currency instance: Romanian Leu
-        public static readonly Currency RON = new(RON_NAME);
+        public static readonly Currency RON = new Currency(RON_NAME);
 
         /// Currency instance: Serbian Dinar
-        public static readonly Currency RSD = new(RSD_NAME);
+        public static readonly Currency RSD = new Currency(RSD_NAME);
 
         /// Currency instance: Russian Ruble
-        public static readonly Currency RUB = new(RUB_NAME);
+        public static readonly Currency RUB = new Currency(RUB_NAME);
 
         /// Currency instance: Saudi Riyal
-        public static readonly Currency SAR = new(SAR_NAME);
+        public static readonly Currency SAR = new Currency(SAR_NAME);
 
         /// Currency instance: Swedish Krona
-        public static readonly Currency SEK = new(SEK_NAME);
+        public static readonly Currency SEK = new Currency(SEK_NAME);
 
         /// Currency instance: Singapore Dollar
-        public static readonly Currency SGD = new(SGD_NAME);
+        public static readonly Currency SGD = new Currency(SGD_NAME);
 
         /// Currency instance: Syrian Pound
-        public static readonly Currency SYP = new(SYP_NAME);
+        public static readonly Currency SYP = new Currency(SYP_NAME);
 
         /// Currency instance: Thai Baht
-        public static readonly Currency THB = new(THB_NAME);
+        public static readonly Currency THB = new Currency(THB_NAME);
 
         /// Currency instance: Tunisian Dinar
-        public static readonly Currency TND = new(TND_NAME);
+        public static readonly Currency TND = new Currency(TND_NAME);
 
         /// Currency instance: Turkish Lira
-        public static readonly Currency TRY = new(TRY_NAME);
+        public static readonly Currency TRY = new Currency(TRY_NAME);
 
         /// Currency instance: Trinidad Dollar
-        public static readonly Currency TTD = new(TTD_NAME);
+        public static readonly Currency TTD = new Currency(TTD_NAME);
 
         /// Currency instance: New Taiwan Dollar
-        public static readonly Currency TWD = new(TWD_NAME);
+        public static readonly Currency TWD = new Currency(TWD_NAME);
 
         /// Currency instance: Ukrainian Hryvnia
-        public static readonly Currency UAH = new(UAH_NAME);
+        public static readonly Currency UAH = new Currency(UAH_NAME);
 
         /// Currency instance: US Dollar
-        public static readonly Currency USD = new(USD_NAME);
+        public static readonly Currency USD = new Currency(USD_NAME);
 
         /// Currency instance: Peso Uruguayo
-        public static readonly Currency UYU = new(UYU_NAME);
+        public static readonly Currency UYU = new Currency(UYU_NAME);
 
         /// Currency instance: Uzbekistan Som
-        public static readonly Currency UZS = new(UZS_NAME);
+        public static readonly Currency UZS = new Currency(UZS_NAME);
 
         /// Currency instance: Venezuelan Bolivar
-        public static readonly Currency VEF = new(VEF_NAME);
+        public static readonly Currency VEF = new Currency(VEF_NAME);
 
         /// Currency instance: Vietnamese Dong
-        public static readonly Currency VND = new(VND_NAME);
+        public static readonly Currency VND = new Currency(VND_NAME);
 
         /// Currency instance: Yemeni Rial
-        public static readonly Currency YER = new(YER_NAME);
+        public static readonly Currency YER = new Currency(YER_NAME);
 
         /// Currency instance: South African Rand
-        public static readonly Currency ZAR = new(ZAR_NAME);
+        public static readonly Currency ZAR = new Currency(ZAR_NAME);
 
         /// Currency instance: Zimbabwe Dollar
-        public static readonly Currency ZWL = new(ZWL_NAME);
+        public static readonly Currency ZWL = new Currency(ZWL_NAME);
 
 
-        private static readonly Dictionary<string, int> CurrencySymbolToDigits = new()
+        private static readonly Dictionary<string, int> CurrencySymbolToDigits = new Dictionary<string, int>()
         {
             {AED_NAME, 2},
             {ALL_NAME, 2},

@@ -2,7 +2,7 @@ using System;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 
-namespace Money
+namespace CodeParadise.Core
 {
     public sealed class Money : IEquatable<Money>, IComparable<Money>
     {
@@ -94,7 +94,17 @@ namespace Money
         /// <returns></returns>
         public static Money Dollars(double amount)
         {
-            return new(amount, Currency.USD);
+            return new Money(amount, Currency.USD);
+        }
+
+        /// <summary>
+        ///     Currency is USD
+        /// </summary>
+        /// <param name="amount"></param>
+        /// <returns></returns>
+        public static Money Dollars(decimal amount)
+        {
+            return new Money(amount, Currency.USD);
         }
 
         private int GetCentFactor()
@@ -133,7 +143,7 @@ namespace Money
 
         public Money Multiply(decimal amount, MidpointRounding roundingMode)
         {
-            return new(Amount * amount, Currency, roundingMode);
+            return new Money(Amount * amount, Currency, roundingMode);
         }
 
         public Money Divide(double amount)
@@ -148,7 +158,7 @@ namespace Money
 
         public Money Divide(decimal amount, MidpointRounding roundingMode)
         {
-            return new(Amount / amount, Currency, roundingMode);
+            return new Money(Amount / amount, Currency, roundingMode);
         }
 
         public Money Add(Money other)

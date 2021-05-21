@@ -2,7 +2,7 @@ using System;
 using System.Diagnostics.CodeAnalysis;
 using NUnit.Framework;
 
-namespace Money.Tests
+namespace CodeParadise.Core.Tests
 {
     public class MoneyTests
     {
@@ -37,67 +37,67 @@ namespace Money.Tests
         [Test]
         public void Test_Multiply_decimal()
         {
-            Assert.AreEqual(Money.Dollars(150), d15.Multiply(10m));
-            Assert.AreEqual(Money.Dollars(1.5), d15.Multiply(0.1m));
-            Assert.AreEqual(Money.Dollars(70), d100.Multiply(0.7m));
+            Assert.AreEqual(Money.Dollars(150m), d15.Multiply(10m));
+            Assert.AreEqual(Money.Dollars(1.5m), d15.Multiply(0.1m));
+            Assert.AreEqual(Money.Dollars(70m), d100.Multiply(0.7m));
         }
 
         [Test]
         public void Test_OperatorMultiply_decimal()
         {
-            Assert.AreEqual(Money.Dollars(150), d15 * 10m);
-            Assert.AreEqual(Money.Dollars(1.5), d15 * 0.1m);
-            Assert.AreEqual(Money.Dollars(70), d100 * 0.7m);
+            Assert.AreEqual(Money.Dollars(150m), d15 * 10m);
+            Assert.AreEqual(Money.Dollars(1.5m), d15 * 0.1m);
+            Assert.AreEqual(Money.Dollars(70m), d100 * 0.7m);
         }
 
         [Test]
         public void Test_Multiply_double()
         {
-            Assert.AreEqual(Money.Dollars(150), d15.Multiply(10d));
-            Assert.AreEqual(Money.Dollars(1.5), d15.Multiply(0.1d));
-            Assert.AreEqual(Money.Dollars(70), d100.Multiply(0.7d));
+            Assert.AreEqual(Money.Dollars(150d), d15.Multiply(10d));
+            Assert.AreEqual(Money.Dollars(1.5d), d15.Multiply(0.1d));
+            Assert.AreEqual(Money.Dollars(70d), d100.Multiply(0.7d));
         }
 
 
         [Test]
         public void Test_OperatorMultiply_double()
         {
-            Assert.AreEqual(Money.Dollars(150), d15 * 10d);
-            Assert.AreEqual(Money.Dollars(1.5), d15 * 0.1d);
-            Assert.AreEqual(Money.Dollars(70), d100 * 0.7d);
+            Assert.AreEqual(Money.Dollars(150d), d15 * 10d);
+            Assert.AreEqual(Money.Dollars(1.5d), d15 * 0.1d);
+            Assert.AreEqual(Money.Dollars(70d), d100 * 0.7d);
         }
 
         [Test]
         public void Test_Divide_decimal()
         {
-            Assert.AreEqual(d15, Money.Dollars(150).Divide(10m));
-            Assert.AreEqual(d15, Money.Dollars(1.5).Divide(0.1m));
-            Assert.AreEqual(d100, Money.Dollars(70).Divide(0.7m));
+            Assert.AreEqual(d15, Money.Dollars(150m).Divide(10m));
+            Assert.AreEqual(d15, Money.Dollars(1.5m).Divide(0.1m));
+            Assert.AreEqual(d100, Money.Dollars(70m).Divide(0.7m));
         }
 
         [Test]
         public void Test_OperatorDivide_decimal()
         {
-            Assert.AreEqual(d15, Money.Dollars(150) / 10m);
-            Assert.AreEqual(d15, Money.Dollars(1.5) / 0.1m);
-            Assert.AreEqual(d100, Money.Dollars(70) / 0.7m);
+            Assert.AreEqual(d15, Money.Dollars(150m) / 10m);
+            Assert.AreEqual(d15, Money.Dollars(1.5m) / 0.1m);
+            Assert.AreEqual(d100, Money.Dollars(70m) / 0.7m);
         }
 
         [Test]
         public void Test_Divide_double()
         {
-            Assert.AreEqual(d15, Money.Dollars(150).Divide(10d));
-            Assert.AreEqual(d15, Money.Dollars(1.5).Divide(0.1d));
-            Assert.AreEqual(d100, Money.Dollars(70).Divide(0.7d));
+            Assert.AreEqual(d15, Money.Dollars(150d).Divide(10d));
+            Assert.AreEqual(d15, Money.Dollars(1.5d).Divide(0.1d));
+            Assert.AreEqual(d100, Money.Dollars(70d).Divide(0.7d));
         }
 
 
         [Test]
         public void Test_OperatorDivide_double()
         {
-            Assert.AreEqual(d15, Money.Dollars(150) / 10d);
-            Assert.AreEqual(d15, Money.Dollars(1.5) / 0.1d);
-            Assert.AreEqual(d100, Money.Dollars(70) / 0.7d);
+            Assert.AreEqual(d15, Money.Dollars(150d) / 10d);
+            Assert.AreEqual(d15, Money.Dollars(1.5d) / 0.1d);
+            Assert.AreEqual(d100, Money.Dollars(70d) / 0.7d);
         }
 
         [Test]
