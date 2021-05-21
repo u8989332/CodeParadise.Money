@@ -481,5 +481,17 @@ namespace Money.Tests
             Assert.AreEqual(d20, d100 - d80);
             Assert.AreEqual(d2_51, d100 - d97_49);
         }
+
+        [Test]
+        public void SameCurrency_Equals_ReturnTrue()
+        {
+            Assert.IsTrue(d100.Currency.Equals(d20.Currency));
+        }
+
+        [Test]
+        public void DifferentCurrency_Equals_ReturnFalse()
+        {
+            Assert.IsFalse(d100.Currency.Equals(y50.Currency));
+        }
     }
 }

@@ -10,9 +10,10 @@ namespace Money
         private long _amount;
 
 
-        private Money(long amount)
+        private Money(long amount, Currency currency)
         {
             _amount = amount;
+            Currency = currency;
         }
 
         public Money(double amount, Currency currency) : this(new decimal(amount), currency)
@@ -27,7 +28,7 @@ namespace Money
 
         public decimal Amount => (decimal) _amount / Cents[Currency.GetDefaultFractionDigits()];
 
-        public Currency Currency { get; set; }
+        public Currency Currency { get; }
 
         public int CompareTo(Money other)
         {
@@ -115,10 +116,7 @@ namespace Money
 
         private Money NewMoney(long amount)
         {
-            var money = new Money(amount)
-            {
-                Currency = Currency
-            };
+            var money = new Money(amount, Currency);
 
             return money;
         }

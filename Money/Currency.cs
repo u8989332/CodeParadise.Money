@@ -3,6 +3,11 @@ using System.Collections.Generic;
 
 namespace Money
 {
+    /// <summary>
+    /// References
+    /// Currency names: https://docs.microsoft.com/en-us/dotnet/api/system.globalization.regioninfo.isocurrencysymbol?view=net-5.0
+    /// The number of digit: https://en.wikipedia.org/wiki/ISO_4217
+    /// </summary>
     public readonly struct Currency : IEquatable<Currency>
     {
         /// Currency name: UAE Dirham
@@ -673,6 +678,11 @@ namespace Money
         public override int GetHashCode()
         {
             return _currencyName.GetHashCode();
+        }
+
+        public override string ToString()
+        {
+            return _currencyName;
         }
     }
 }
