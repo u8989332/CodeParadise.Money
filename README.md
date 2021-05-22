@@ -235,4 +235,3 @@ LiJyu Gao - [Code Paradise](http://glj8989332.blogspot.com/) - b8989332@gmail.co
 * [moneyphp/money](https://github.com/moneyphp/money)
 * [LitGroup/money.dart](https://github.com/LitGroup/money.dart)
 * [neuhalje/TimeAndMoney](https://github.com/neuhalje/TimeAndMoney)
-* [neuhalje/TimeAndMoney](https://github.com/neuhalje/TimeAndMoney)
