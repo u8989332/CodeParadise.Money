@@ -24,4 +24,4 @@ jobs:
            cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\"
            .\MSBuild.exe $Env:GITHUB_WORKSPACE\CodeParadise.Money
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test CodeParadise.Money.Tests --configuration Release
