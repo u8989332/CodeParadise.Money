@@ -11,8 +11,8 @@
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Description>This is a C# implementation of the Money pattern, as described in Martin Fowler PoEAA</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/u8989332/Money</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/u8989332/Money</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/u8989332/CodeParadise.Money</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/u8989332/CodeParadise.Money</RepositoryUrl>
     <PackageTags>Money, Currency</PackageTags>
     <Product>CodeParadise.Money</Product>
     <AssemblyName>CodeParadise.Money</AssemblyName>
