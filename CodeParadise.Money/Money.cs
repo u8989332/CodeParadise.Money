@@ -2,7 +2,7 @@ using System;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 
-namespace CodeParadise.Core
+namespace CodeParadise.Money
 {
     public sealed class Money : IEquatable<Money>, IComparable<Money>
     {

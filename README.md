@@ -23,7 +23,7 @@ Or via the .NET Core command line interface:
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-
+* [Namespace](#namespace)
 * [Constructors](#constructors)
 * [Getting an amount](#getting-an-amount)
 * [Getting a currency](#getting-a-currency)
@@ -33,6 +33,14 @@ Or via the .NET Core command line interface:
   * [Allocation According to Ratios](#allocation-according-to-ratios)
   * [Allocation to N Targets](#allocation-to-n-targets)
 * [Currency](#currency)
+
+### Namespace
+
+When use this pacakge, first include the namespace:
+
+```csharp
+using CodeParadise.Money;
+```
 
 ### Constructors
 

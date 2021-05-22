@@ -4,9 +4,9 @@
     <Company>LiJyu Gao</Company>
     <Authors>LiJyu Gao</Authors>
     <PackageId>CodeParadise.Money</PackageId>
-    <Version>1.1.0</Version>
-    <AssemblyVersion>1.1.0.0</AssemblyVersion>
-    <FileVersion>1.1.0.0</FileVersion>
+    <Version>1.1.1</Version>
+    <AssemblyVersion>1.1.1.0</AssemblyVersion>
+    <FileVersion>1.1.1.0</FileVersion>
     <Copyright>LiJyu Gao</Copyright>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Description>This is a C# implementation of the Money pattern, as described in Martin Fowler PoEAA</Description>
@@ -15,7 +15,7 @@
     <RepositoryUrl>https://github.com/u8989332/Money</RepositoryUrl>
     <PackageTags>Money, Currency</PackageTags>
     <Product>CodeParadise.Money</Product>
-    <AssemblyName>CodeParadise.Core</AssemblyName>
-    <RootNamespace>CodeParadise.Core</RootNamespace>
+    <AssemblyName>CodeParadise.Money</AssemblyName>
+    <RootNamespace>CodeParadise.Money</RootNamespace>
   </PropertyGroup>
 </Project>
