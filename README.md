@@ -1,3 +1,4 @@
+![example workflow](https://github.com/u8989332/CodeParadise.Money/actions/workflows/dotnet.yml/badge.svg)
 [![NuGet](https://img.shields.io/nuget/dt/CodeParadise.Money.svg)](https://www.nuget.org/packages/CodeParadise.Money) 
 [![NuGet](https://img.shields.io/nuget/vpre/CodeParadise.Money.svg)](https://www.nuget.org/packages/CodeParadise.Money)
 
