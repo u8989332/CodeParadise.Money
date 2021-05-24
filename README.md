@@ -219,10 +219,10 @@ Assert.AreEqual(Money.Dollars(0.83), allocations[2]);
 
 ```csharp
 Console.WriteLine(Currency.JPY); // JPY
-Console.WriteLine(Currency.JPY.GetDefaultFractionDigits()); 0
+Console.WriteLine(Currency.JPY.GetDefaultFractionDigits()); // 0
 
 Console.WriteLine(Currency.USD); // USD
-Console.WriteLine(Currency.USD.GetDefaultFractionDigits()); 2
+Console.WriteLine(Currency.USD.GetDefaultFractionDigits()); // 2
 ```
 
 
